@@ -22,6 +22,7 @@ function App() {
 
   //Nuevo item en la lista
   const nuevoItem = item =>{
+    
     console.log('SE AGREGA NUEVO ITEM')
     modificarItems([...items, item]);
   }
